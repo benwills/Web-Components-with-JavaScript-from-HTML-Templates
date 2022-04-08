@@ -29,7 +29,7 @@ class wcElementDetails extends HTMLElement
 	};
 
 	//----------------------------------------------------------------------------
-	Attach(id = null, withShadowRoot = true)
+	Attach(id, withShadowRoot = true)
 	{
 		const elContainer = document.createElement("div");
 		elContainer.appendChild(this.el);
